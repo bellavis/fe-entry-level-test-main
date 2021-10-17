@@ -1,4 +1,5 @@
-I am one of the Aquarius :)
+Bell Avisar
+P.S: I am an Aquariuse :)
 
 # Your broken Tasks Widget
 Complete as many tasks as can before deadline.
