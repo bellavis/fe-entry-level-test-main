@@ -97,6 +97,7 @@ export default class View {
   bindAddItem(handler) {
     listen(this.$newTodo, 'change', ({ target }) => {
       const title = target.value.trim().replace(/<|>/g, '');
+      // check if title included in data, if it does, don't add the title
       if (title) {
         handler(title);
       }
