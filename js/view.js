@@ -64,7 +64,7 @@ export default class View {
   }
 
   updateFilterButtons(route) {
-    query(`.filters .selected ,[href="#/${route}"]`).className = '';
+    query(`.filters .selected ,[href="#/*"]`).className = '';
     query(`.filters [href="#/${route}"]`).className = 'selected';
   }
 
